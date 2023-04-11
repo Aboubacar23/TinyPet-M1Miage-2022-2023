@@ -2,7 +2,7 @@
 Pour finaliser le module développement d'applications sur le CLOUD 
 Nous avons développé un site web de pétition en ligne avec le framework comme Mithril et l'appel d'API REST pour les Endpoints et l'utilisation du Datastore de Google Platform sur Google App Engine.
 
-Auteur : Aboubacar Sidiki Condé, Garrie Angelau Bellegarde et Fode Bangaly Diakité
+Auteur : Aboubacar Sidiki Condé, Gabriel Angelau Bellegarde et Fode Bangaly Diakité
 
 # Liens d'accès
 Lien du site Internet : https://tpm1miage.ts.r.appspot.com/
@@ -28,5 +28,6 @@ Page d'accueil admin
 Nous avons eu beaucoup de problème
 
 # Conclusion
+Ce projet nous a permis de mettre en oeuvre une application sur le cloud en prenant en compte les éléments nécessaires à la scalabilité d'une telle application. Nous avons aussi pu comprendre le fonctionnement du datastore proposé par google.
 
 # TinyPet-M1Miage-2022-2023
