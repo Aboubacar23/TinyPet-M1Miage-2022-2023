@@ -19,6 +19,10 @@ Lien du site Internet : https://tpm1miage.ts.r.appspot.com/
 - Parcourir les top pétitions
 - Rechercher une pétition
 - Voir mes pétitions
+-
+#Captures
+Page d'accueil admin
+
 
 # Problèmes rencontrés
 Nous avons eu beaucoup de problème
