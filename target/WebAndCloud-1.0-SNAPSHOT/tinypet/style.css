@@ -5,7 +5,7 @@
 
 nav
 {
-    background-color: #e3f2fd;
+    background-color: #2b80bd;
 }
 
 .ml-24
@@ -20,7 +20,7 @@ td, th,.subtitle
 
 .cendre
 {
-	background: #f3f3f3;
+	background: #2187a7;
 }
 
 .p-30.cendre
@@ -84,7 +84,7 @@ td, th,.subtitle
 
 a.navbar-item.is-active,a.navbar-item:hover,a.navbar-item:active
 {
-	background: #cacaca!important;
+	background: #84c0cf!important;
 	color: #000ed1!important;
     border-radius: 10px;
 }

@@ -14,38 +14,38 @@
                 padding-top:50px;
                 height:60px;
             }
+            
+            #body{
+                background-color:  #f2f2f2;
+            }
         </style>
     </head>
+    <body id="body">
+        <div>
+            <div>
+                <h1  class="display-4">Bienvenue sur votre site TinyPet</h1>
+                <hr class="my-4">
+                <a href="tinypet/App.html#!/" class="btn btn-info btn-sm">Allez vers le site web</a>
 
-    <body >
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="https://www.univ-nantes.fr/">
-            <img src="https://www.ujv44.fr/wp-content/uploads/2020/02/Logotype_Nantes-U_noir-72dpi.png">
-        </a>
-    </nav>
-    <table>
-        <tr>
-            <td>
-                <div class="jumbotron">
-                    <h1  class="display-4">Bienvenue sur notre application Tiny Pet</h1>
-                    <p class="lead">Création d'un site de pétition avec l'outil Google Cloud Platform, à l'aide du framework Mithril.js</p>
-                    <hr class="my-4">
-                    <p>Projet réalisé par Liam Rigby, Angèle Sery et Paul Tomei</p>
-                    <a href="tinypet/App.html#!/" class="btn btn-primary">Acceuil Web App</a>
+                <hr class="my-4">
+                <h3 class="display-5">Mise en place d'une base de donnée de test</h3>
+                <a href="/petitionInit" class="btn btn-info btn-sm m-5">Créer la Base de données</a>
+                <a href="/petitionInitPlus" class="btn btn-info btn-sm m-5">Créer plusieur pétitions dans la base de données </a>
+                <a href="/petitionRemoveAll" class="btn btn-info btn-sm m-5">Supprimer les pétitions de la base</a>
+            </div>
+        </div>
+        <div class="page-footer font-small blue pt-4 fixed-bottom">
+            <div class="container-fluid text-center text-md-left">
+              <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                  <h5 class="text-uppercase">Réalisé par : </h5>
+                  <p>Aboubacar Sidiki Condé, Garrie Angelau Bellegarde et Fode Bangaly Diakité</p>
                 </div>
-            </td>
-            <td>
-                <div class="jumbotron">
-                    <h3 class="display-5">Mise en place pour le test</h3>
-                    <hr class="my-4">
-                    <a href="/petitionInit" class="btn btn-primary">Création de données</a><br>
-                    <br>
-                    <a href="/petitionInitPlus" class="btn btn-primary">Création de beaucoup de donées </a><br>
-                    <br>
-                    <a href="/petitionRemoveAll" class="btn btn-primary">Suppression des donnees</a>
-                </div>
-            </td>
-        </tr>
-    </table>
+                <hr class="clearfix w-100 d-md-none pb-3">
+              </div>          
+            </div>
+            <div class="footer-copyright text-center py-3">Copyright <a href="/"> M1MIAGE-2022-2023</a>
+              </div>
+        </div>
     </body>
 </html>

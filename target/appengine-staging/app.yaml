@@ -5,7 +5,7 @@ derived_file_type:
 - java_precompiled
 auto_id_policy: default
 beta_settings:
-  'source_reference': 'https://github.com/LiamsRigby/TinyPet.git#c66c3fe273a8efd0b954e75ead6d552fe9d8694f'
+  'source_reference': 'https://github.com/Aboubacar23/TinyPet-M1Miage-2022-2023.git#22fa8270066a262093961b8960e14764284364fc'
 env_variables:
   'ENDPOINTS_SERVICE_NAME': 'petcloudproject.appspot.com'
 api_version: 'user_defined'

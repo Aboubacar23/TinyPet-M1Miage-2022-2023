@@ -535,8 +535,6 @@
             },
             oncreate: function (vnode) {
                 currentURL = "/MyPetitionSigned";
-                //API_SearchPetition.loadList(indexSearchPetitionView);
-
             },
             view: function () {
                 return [API_SearchPetition.list.map(function (item, index) {
@@ -831,7 +829,7 @@
                                 m("p", { "class": "control txt-center" },
                                 [
                                     m("input", {
-                                        "class": "input txt-center w-60 ", "type": "text", "placeholder": "Indiquez le titre ou l'un des tags de la petition recherchée",
+                                        "class": "input txt-center w-60 ", "type": "text", "placeholder": "Chercher une pétition",
                                         oninput: function (e) { API_SearchPetition.key_search = e.target.value },
                                         value: API_SearchPetition.key_search
                                     }),
@@ -1223,9 +1221,8 @@
         var Top100Signed = {
             view: function () {
                 return [m(Header),                
-                m("br"),    
-                m("br"),                                                          
-                m('div', { class: 'p-30 cendre' }, [
+                m("br"),                                                         
+                m('div', { class: 'p-15 center' }, [
                     m(Top10SignedPetitionsView)
                 ])]
             }
