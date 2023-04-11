@@ -1,0 +1,9 @@
+foo/PetitionInit.class
+foo/PetitionInitPlus.class
+foo/PetitionRemoveAll.class
+foo/PetitionEndpoint.class
+foo/PetitionQuery.class
+foo/RandomDate.class
+foo/PetitionSigned.class
+foo/PetitionItem.class
+foo/PetitionServlet.class
